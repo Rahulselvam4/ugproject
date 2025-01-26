@@ -1,0 +1,22 @@
+body {
+   
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+   
+  }
+/* 
+table,tr,td
+{
+  position: relative;
+  text-align: center;
+  padding: 5px;
+} */
+button
+{
+  text-align: center;
+
+}
+button:hover{
+  color:gray;
+}

@@ -1,0 +1,54 @@
+/********** Template CSS **********/
+:root {
+    --primary: #0d0e0d;
+    --secondary: #FF9933;
+    --light: #F6FFF2;
+    --dark: #263A4F;
+}
+.btn-primary,
+.btn-secondary {
+    color: #FFFFFF;
+}
+.back-to-top {
+    position: fixed;
+    display: block;
+    right: 30px;
+    bottom: 0;
+    border-radius: 0;
+    z-index: 99;
+} 
+@media (max-width: 991.98px) {
+    .navbar-dark .navbar-nav .nav-link  {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-caption h4 {
+        font-size: 18px;
+        font-weight: 500 !important;
+    }
+
+    .carousel-caption h1 {
+        font-size: 30px;
+        font-weight: 600 !important;
+    }
+}
+@media (min-width: 991.98px) {
+    .banner {
+        position: relative;
+        margin-top: -90px;
+        z-index: 1;
+    }
+}
+
+.bg-footer {
+    background: linear-gradient(rgba(52, 173, 84, .7), rgba(52, 173, 84, .7)), url(./images/footer.png) center bottom no-repeat;
+    background-size: contain;
+} 
+
+@media (min-width: 991.98px) { */
+    .bg-footer {
+        margin-top: 90px !important;
+    }
+}
